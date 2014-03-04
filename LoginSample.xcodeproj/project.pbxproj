@@ -19,6 +19,9 @@
 		03AC82E718C0538A00B68136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AC82CF18C0538A00B68136 /* UIKit.framework */; };
 		03AC82EF18C0538A00B68136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AC82ED18C0538A00B68136 /* InfoPlist.strings */; };
 		03AC82F118C0538A00B68136 /* LoginSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AC82F018C0538A00B68136 /* LoginSampleTests.m */; };
+		03AC82FC18C053C900B68136 /* LoginFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AC82FB18C053C900B68136 /* LoginFormField.m */; };
+		03AC830018C41B5B00B68136 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AC82FE18C41B5B00B68136 /* RootViewController.m */; };
+		03AC830118C41B5B00B68136 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AC82FF18C41B5B00B68136 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		03AC82EC18C0538A00B68136 /* LoginSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginSampleTests-Info.plist"; sourceTree = "<group>"; };
 		03AC82EE18C0538A00B68136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03AC82F018C0538A00B68136 /* LoginSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSampleTests.m; sourceTree = "<group>"; };
+		03AC82FA18C053C900B68136 /* LoginFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginFormField.h; sourceTree = "<group>"; };
+		03AC82FB18C053C900B68136 /* LoginFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginFormField.m; sourceTree = "<group>"; };
+		03AC82FD18C41B5B00B68136 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		03AC82FE18C41B5B00B68136 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		03AC82FF18C41B5B00B68136 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +117,13 @@
 			children = (
 				03AC82DA18C0538A00B68136 /* AppDelegate.h */,
 				03AC82DB18C0538A00B68136 /* AppDelegate.m */,
+				03AC82FD18C41B5B00B68136 /* RootViewController.h */,
+				03AC82FE18C41B5B00B68136 /* RootViewController.m */,
+				03AC82FF18C41B5B00B68136 /* RootViewController.xib */,
 				03AC82DD18C0538A00B68136 /* Images.xcassets */,
 				03AC82D218C0538A00B68136 /* Supporting Files */,
+				03AC82FA18C053C900B68136 /* LoginFormField.h */,
+				03AC82FB18C053C900B68136 /* LoginFormField.m */,
 			);
 			path = LoginSample;
 			sourceTree = "<group>";
@@ -221,6 +234,7 @@
 			files = (
 				03AC82D618C0538A00B68136 /* InfoPlist.strings in Resources */,
 				03AC82DE18C0538A00B68136 /* Images.xcassets in Resources */,
+				03AC830118C41B5B00B68136 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AC82FC18C053C900B68136 /* LoginFormField.m in Sources */,
 				03AC82DC18C0538A00B68136 /* AppDelegate.m in Sources */,
+				03AC830018C41B5B00B68136 /* RootViewController.m in Sources */,
 				03AC82D818C0538A00B68136 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
